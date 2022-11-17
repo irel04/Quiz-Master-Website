@@ -186,3 +186,52 @@ border: 4px solid #66D3FA;
 {
 background-color:#66D3FA;
 }
+button 
+{
+    width: 130px;
+    height: 40px;
+    border: none;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    justify-content: center;
+    align-items: center;
+}
+.cn-view
+{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    transition: 0.3s ease;
+    margin-right: 70%;
+}
+.cn-view:hover
+{
+    background-color: #B3E5FC;
+}   
+.np a 
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.np a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+.previous
+{
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 5px;
+}
+.next
+{
+    background-color: #4caff0;
+    color: black;
+    border-radius: 5px;
+}
