@@ -78,14 +78,14 @@ details>ul{
     list-style: circle;
     padding-top: 2px;
     width: 80px;
-    background-color: #1b1d2830;
+    background-color: transparent;
+    list-style-type: none;
 }
 details li{
     margin-left: 20px;
     padding-top: 15px;
     padding-bottom: 5px;
     width: 70px;
-    
 }
 
 li a:hover
