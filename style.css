@@ -81,10 +81,10 @@ li a:hover
 .radio-buttons
 {
     width: 100%;
-    margin: 0 auto;
-    display: flex;
+    margin: 0;
+    display: inline-flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: non-wrap;
 }
 .custom-radio input
 {
