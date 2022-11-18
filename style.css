@@ -43,8 +43,25 @@ nav
     backdrop-filter: blur(5px);
     box-shadow: 0 20px 30px rgba(0,0,0,0.15);
 }
+<<<<<<< HEAD
 
 nav>ul>li
+=======
+.logo
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    font-family: Arial;
+    margin-left: 40px;
+}
+ul
+{
+    list-style: none;
+    justify-content: center;
+}
+li
+>>>>>>> fd18c9a737adca6968237d4649d56b5c0dea2112
 {
     display: inline-block;
     text-decoration: none;
@@ -208,11 +225,11 @@ li a:hover
 }
 .custom-radio input:checked + .btn
 {
-border: 4px solid #66D3FA;
+border: 4px solid #FC9601;
 }
 .custom-radio input:checked + .btn .check-icon
 {
-background-color:#66D3FA;
+background-color:#FC9601;
 }  
 .np a 
 {
