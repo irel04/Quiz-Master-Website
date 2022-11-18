@@ -213,7 +213,6 @@ a:hover span:nth-child(4)
     font-size: 25px;
     font-weight: 300;
     margin-bottom: 50px;
-    z-index: -1;
 
 }
 .radio-buttons
@@ -232,7 +231,6 @@ a:hover span:nth-child(4)
 .btn 
 {
     position: relative;
-    display: flex;
     width: 240px;
     height: 310px;
     margin: 20px;
@@ -254,7 +252,6 @@ a:hover span:nth-child(4)
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: -1;
 }
 .btn .image
 {
