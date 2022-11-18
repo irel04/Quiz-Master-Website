@@ -247,12 +247,12 @@ li a:hover
 }
 .np .next:hover
 {
-    background-color: #4CAF50;
+    background: linear-gradient(to right, #ff342f, #ff9422);    
     color: black;
 }
 .np .previous:hover
 {
-    background-color: #4CAF50;
+    background: linear-gradient(to right, #ff342f, #ff9422);    
     color: black;
 }
 .previous
