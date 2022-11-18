@@ -201,38 +201,13 @@ border: 4px solid #66D3FA;
 .custom-radio input:checked + .btn .check-icon
 {
 background-color:#66D3FA;
-}
-button 
-{
-    width: 130px;
-    height: 40px;
-    border: none;
-    display: flex;
-    font-size: 12px;
-    letter-spacing: 1px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.4s ease;
-    justify-content: center;
-    align-items: center;
-}
-.cn-view
-{
-    text-decoration: none;
-    background: #fff;
-    color: black;
-    transition: 0.3s ease;
-    margin-right: 70%;
-}
-.cn-view:hover
-{
-    background-color: #B3E5FC;
-}   
+}  
 .np a 
 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    margin-bottom: 100px;
 }
 .np a:hover
 {
