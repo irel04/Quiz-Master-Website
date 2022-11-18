@@ -65,6 +65,16 @@ nav ul li a
     font-family: Arial;
     margin-left: 40px;
 }
+header + section 
+{   
+    background-image: url(images/quiz-page.jpg);
+    width: 100%;
+    top: 0px;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
 
 nav>ul>li
 {
@@ -354,4 +364,10 @@ a:hover span:nth-child(4)
 
 html {
     scroll-behavior: smooth;
+}
+
+#quiz_page{
+    position: relative;
+    font-size: 200%;
+    top: 87%;
 }
