@@ -48,10 +48,11 @@ nav ul li a
 {
     position: relative;
     display: inline-block;
-    padding: 15px 15px;
+    padding: 7px 7px;
     color: white;
+    margin-right: 40px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-decoration: none;
     font-size: 14px;
     overflow: hidden;
