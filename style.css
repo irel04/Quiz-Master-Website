@@ -389,14 +389,16 @@ footer{
 }
 .footer-content
 {
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items:flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
 .footer-content h3
-{
+{   
+    
     font-size: 24px;
     letter-spacing: 2px;
 }
@@ -406,7 +408,7 @@ footer{
 
 }
 .footer-content p
-{
+{   
     margin: 40px 0 40px 0;
     font-size: 14px;
     letter-spacing: 1px;
