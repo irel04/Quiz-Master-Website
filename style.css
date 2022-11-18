@@ -9,6 +9,10 @@ body
     margin: 0;
     padding: 0;
 }
+body>section{
+    position: relative;
+    top: 50px
+}
 
 header
 {
@@ -16,6 +20,7 @@ header
     height: 100vh;
     background: url("header.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 nav
 {
@@ -60,15 +65,15 @@ li a:hover
     z-index: -1;
 }
 .box{
-    background-color: #1b1d28;
+    background-color: #1b1d2870;
     display: flex;
     margin: 100px;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;  
 }
-.box h2
-{
+
+.box h2{
     color: white;
     position: relative;
     margin-top: 20px;
@@ -76,7 +81,7 @@ li a:hover
     font-size: 25px;
     font-weight: 300;
     margin-bottom: 50px;
-    
+
 }
 .radio-buttons
 {
