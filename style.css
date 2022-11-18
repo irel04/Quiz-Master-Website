@@ -68,7 +68,7 @@ nav ul li a
 }
 header + section 
 {   
-    background-image: url(images/quiz-page2.jpg);
+    background-image: url('images/quiz-page2.jpg');
     width: 100%;
     top: 0;
     background-size: cover;
@@ -375,4 +375,39 @@ html {
     position: relative;
     font-size: 200%;
     top: 87%;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    padding-top: 40px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.syntax
+{
+    color: #ff9422;
+
+}
+.footer-content p
+{
+    margin: 40px 0 40px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
