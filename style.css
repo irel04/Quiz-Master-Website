@@ -43,23 +43,35 @@ nav
     backdrop-filter: blur(5px);
     box-shadow: 0 20px 30px rgba(0,0,0,0.15);
 }
-ul
-{
-    list-style: none;
-    justify-content: center;
-}
-li
+
+nav>ul>li
 {
     display: inline-block;
-}
-li a
-{
     text-decoration: none;
     font-size: 14px;
     margin-right: 50px;
     color: white;
-    letter-spacing: 1px;
+
 }
+ul a
+{
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    color: white;
+ 
+}
+details{
+    margin-left: -15px;
+    margin-right: -10px;
+}
+details>ul{
+    list-style: circle;
+    padding-top: 2px;
+    margin-left: 5px;
+
+}
+
 li a:hover
 {
     color: blue;
