@@ -119,9 +119,15 @@ li a:hover
     width: 240px;
     height: 310px;
     margin: 20px;
-    background-color: transparent;
-    border: 2px solid white;
+    background: transparent;
+    border: 2px solid;
+    border-image-slice: 1;
     cursor: pointer;
+}
+.btn
+{
+    border-image-source: linear-gradient(to right, #ff342f, #ff9422);
+    /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 }
 .btn .content
 {
@@ -204,11 +210,13 @@ li a:hover
 }
 .custom-radio input:checked + .btn
 {
-border: 4px solid #FC9601;
+    border: 4px solid white;
+    background: linear-gradient(to right, #ff342f, #ff9422);
+    /* background: linear-gradient(to left, #743ad5, #d53a9d); */
 }
 .custom-radio input:checked + .btn .check-icon
 {
-background-color:#FC9601;
+    background-color: #d53a9d;
 }  
 .np a 
 {
