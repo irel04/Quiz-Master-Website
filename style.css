@@ -111,7 +111,7 @@ li a:hover
     width: 240px;
     height: 310px;
     margin: 20px;
-    background-color: #222533;
+    background-color: transparent;
     border: 4px solid transparent;
     cursor: pointer;
 }
