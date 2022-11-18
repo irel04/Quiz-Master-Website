@@ -9,6 +9,7 @@ body
     margin: 0;
     padding: 0;
 }
+
 header
 {
     width: 100%;
@@ -58,9 +59,7 @@ li a:hover
     bottom: 0;
     z-index: -1;
 }
-.box
-{
-    height: 90vh;
+.box{
     background-color: #1b1d28;
     display: flex;
     margin: 100px;
@@ -71,6 +70,8 @@ li a:hover
 .box h2
 {
     color: white;
+    position: relative;
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 300;
