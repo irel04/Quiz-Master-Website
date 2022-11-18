@@ -176,7 +176,7 @@ li a:hover
     color: white;
     margin-bottom: 10px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .btn .check-icon
 {
@@ -236,7 +236,7 @@ li a:hover
 }
 .custom-radio input:checked + .btn .check-icon
 {
-    background-color: #d53a9d;
+    background-color: #ff342f;
 }  
 .np a 
 {
