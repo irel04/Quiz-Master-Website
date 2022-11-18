@@ -57,7 +57,6 @@ nav ul li a
     overflow: hidden;
     transition: 0.2s;
 }
-
 .logo
 {
     position: relative;
@@ -76,7 +75,21 @@ header + section
     height: 100vh;
     overflow: hidden;
 }
-
+.take-quiz
+{
+    position: relative;
+    background: #fff;
+    color: #ff342f;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.take-quiz:hover
+{
+    background: linear-gradient(to right, #ff342f, #ff9422);    
+    color: #fff;
+}
 nav>ul>li
 {
     display: inline-block;
@@ -92,27 +105,7 @@ ul a
     font-size: 14px;
     margin-right: 10px;
     color: white;
-
 }
-details{
-    position: fixed;
-    margin-left: -39px;
-    top: 30px;
-}
-details>ul{
-    list-style: circle;
-    padding-top: 2px;
-    width: 80px;
-    background-color: transparent;
-    list-style-type: none;
-}
-details li{
-    margin-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    width: 70px;
-}
-
 li a:hover
 {
     color: white;
@@ -220,7 +213,7 @@ a:hover span:nth-child(4)
 .radio-buttons
 {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     margin: 0;
     display: inline-flex;
     justify-content: center;
@@ -234,7 +227,7 @@ a:hover span:nth-child(4)
 {
     position: relative;
     width: 240px;
-    height: 310px;
+    height: 295px;
     margin: 20px;
     background: transparent;
     border: 2px solid;
@@ -336,41 +329,67 @@ a:hover span:nth-child(4)
 {
     background-color: #ff342f;
 }  
-.np a 
+.np a
 {
     position: relative;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    border: none;
     margin-bottom: 50%;
 }
-.np .next:hover
+.next
 {
-    background: linear-gradient(to right, #ff342f, #ff9422);    
-    color: black;
-}
-.np .previous:hover
-{
-    background: linear-gradient(to right, #ff342f, #ff9422);    
-    color: black;
+    background-color: #f1f1f1;
+    color: #ff342f;
+    border-radius: 5px;
 }
 .previous
 {
     background-color: #f1f1f1;
-    color: black;
+    color: #ff342f;
     border-radius: 5px;
 }
-.next
+.np .next:hover
 {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
+    background: linear-gradient(to right, #ff342f, #ff9422);    
+    color: #fff;
 }
-
-html {
+.np .previous:hover
+{
+    background: linear-gradient(to right, #ff342f, #ff9422);    
+    color: #fff;
+}
+section
+{
+    position:relative;
+}
+section details
+{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -80px;
+}
+.view-answer
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+details p
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+html 
+{
     scroll-behavior: smooth;
 }
-
+details
+{
+    margin: 20px;
+}
 #quiz_page{
     position: relative;
     font-size: 200%;
