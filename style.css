@@ -68,7 +68,7 @@ nav ul li a
 }
 header + section 
 {   
-    background-image: url(images/quiz-page.jpg);
+    background-image: url(images/quiz-page2.jpg);
     width: 100%;
     top: 0;
     background-size: cover;
@@ -189,7 +189,7 @@ a:hover span:nth-child(4)
 
 .line 
 {
-    margin: 10px 0 100px 0;
+    margin: 10px 0 120px 0;
     border-top: 4px solid white;
     visibility: hidden;
     width: 100%;
@@ -273,8 +273,8 @@ a:hover span:nth-child(4)
 {
     color: white;
     margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
 }
 .btn .check-icon
 {
@@ -338,10 +338,11 @@ a:hover span:nth-child(4)
 }  
 .np a 
 {
+    position: relative;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
-    margin-bottom: 140px;
+    margin-bottom: 50%;
 }
 .np .next:hover
 {
