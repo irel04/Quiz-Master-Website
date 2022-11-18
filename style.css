@@ -382,8 +382,8 @@ footer{
     left: 0;
     right: 0;
     background: #111;
-    height: 60vh;
-    padding-top: 40px;
+    height: 80vh;
+    padding-top: 30px;
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -397,7 +397,7 @@ footer{
 }
 .footer-content h3
 {
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 2px;
 }
 .syntax
