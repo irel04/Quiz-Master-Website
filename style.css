@@ -519,6 +519,9 @@ hr
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: perspective(600px) rotateY(0deg);
+    transition: transform .5s linear 0s;
+
     
 }
 .card h1
