@@ -484,6 +484,8 @@ hr
 {
     width:350px;
     height: 500px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
 }
 .card
 {
@@ -543,4 +545,93 @@ hr
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main-wrapper {
+width: 350px;
+height: 120px;
+padding: 0px;
+border-radius: 15px;
+box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
+display: flex;
+flex-direction: column;
+background: transparent;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+
+.buttons-wrapper {
+width: 180px;
+height: auto;
+background-color: transparent;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+padding: 0px 0;
+}
+
+input {
+display: none;
+}
+
+.entry {
+position: relative;
+width: 80%;
+transition: 0.5s;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 1px 0;
+}
+
+.circle {
+border: 3px solid #cacaca;
+border-radius: 50%;
+cursor: pointer;
+height: 32px;
+width: 32px;
+top: 10%;
+transition: box-shadow 0.5s, border-color 0.5s;
+}
+
+.entry-label {
+cursor: pointer;
+user-select: none;
+-moz-user-select: none;
+font-weight: 500;
+padding-left: 15px;
+}
+
+.highlight {
+background: white;
+border-radius: 50%;
+height: 18px;
+width: 18px;
+top: 19px;
+left: 25px;
+pointer-events: none;
+position: absolute;
+transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+transform: translateY(-55px);
+}
+
+input:nth-child(1):checked ~ .highlight {
+transform: translateY(-11px);
+}
+
+input:nth-child(3):checked ~ .highlight {
+transform: translateY(23px);
+}
+
+input:checked + .entry .circle {
+border-color: grey;
+box-shadow: 0 0 10px white;
+}
+
+input:checked + .entry {
+color: grey;
 }
