@@ -465,3 +465,82 @@ hr
     letter-spacing: 1px;
     margin-top: 40px;
 }
+.custom-radio
+{
+    height: 100%;
+    width: 100%;
+
+}
+.TorF
+{   
+    height: 105vh;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width:350px;
+    height: 500px;
+}
+.card
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.container:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}
+.front, 
+.back
+{   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem ;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    backface-visibility: hidden;
+}
+.front
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/galaxy.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card h1
+{
+    margin-top: -10%;
+
+}
+.card h2
+{
+    margin-top: 20px;
+}
+
+.card h3 
+{
+    margin-top: 10px;
+}
+
+.back
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1b1d28;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
