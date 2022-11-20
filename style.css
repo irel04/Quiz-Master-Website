@@ -11,10 +11,15 @@ body
 }
 .back-video
 {
-    width: 101%;
+    width: 100%;
     position: fixed;
     right: 0;
     bottom: 0;
+    z-index: -1;
+}
+video
+{
+    background-color: #1b1d28;
     z-index: -1;
 }
 body>section{
@@ -24,14 +29,14 @@ body>section{
 
 header
 {
-    width: 100%;
+    width: 99.70%;
     height: 100vh;
     background: url("images/header.jpg");
     background-size: cover;
 }
 nav
 {
-    width: 100%;
+    width: 99.70%;
     display: flex;
     position: fixed;
     align-items: center;
@@ -69,7 +74,7 @@ nav ul li a
 header + section 
 {   
     background-image: url('images/quiz-page2.jpg');
-    width: 100%;
+    width: 99.70%;
     top: 0;
     background-size: cover;
     position: relative;
@@ -398,6 +403,7 @@ details
     top: 87%;
 }
 footer{
+    width: 99.70%;
     position: relative;
     bottom: 0;
     left: 0;
