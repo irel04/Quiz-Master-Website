@@ -26,7 +26,6 @@ body>section{
     position: relative;
     top: 50px
 }
-
 header
 {
     width: 99.70%;
@@ -89,7 +88,8 @@ header + section
     padding: 8px 16px;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
 }
 .take-quiz:hover
 {
@@ -132,7 +132,6 @@ a span:nth-child(1)
     height: 2px;
     background: linear-gradient(90deg, transparent, white);
 }
-
 a:hover span:nth-child(1)
 {
     left: 100%;
@@ -146,14 +145,12 @@ a span:nth-child(3)
     height: 2px;
     background: linear-gradient(270deg, transparent, white);
 }
-
 a:hover span:nth-child(3)
 {
     right: 100%;
     transition: 1s;
     transition-delay: 0.5s;
 }
-
 a span:nth-child(2)
 {
     top: -100%;
@@ -162,14 +159,12 @@ a span:nth-child(2)
     height: 100%;
     background: linear-gradient(180deg, transparent, white);
 }
-
 a:hover span:nth-child(2)
 {
     top: 100%;
     transition: 1s;
     transition-delay: 0.25s;
 }
-
 a span:nth-child(4)
 {
     bottom: -100%;
@@ -178,14 +173,12 @@ a span:nth-child(4)
     height: 100%;
     background: linear-gradient(360deg, transparent, white);
 }
-
 a:hover span:nth-child(4)
 {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
 }
-
 .line 
 {
     margin: 10px 0 120px 0;
@@ -362,6 +355,8 @@ a:hover span:nth-child(4)
     background-color: #f1f1f1;
     color: #ff342f;
     border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .np .next:hover
 {
@@ -408,12 +403,14 @@ details
 {
     margin: 20px;
 }
-#quiz_page{
+#quiz_page
+{
     position: relative;
     font-size: 200%;
     top: 87%;
 }
-footer{
+footer
+{
     width: 99.70%;
     position: relative;
     bottom: 0;
@@ -561,8 +558,8 @@ hr
     justify-content: center;
     align-items: center;
 }
-
-.main-wrapper {
+.main-wrapper 
+{
 width: 350px;
 height: 120px;
 position: relative;
@@ -575,9 +572,8 @@ justify-content: center;
 align-items: center;
 position: relative;
 }
-
-
-.buttons-wrapper {
+.buttons-wrapper 
+{
 width: 180px;
 height: auto;
 background-color: transparent;
@@ -588,12 +584,12 @@ align-items: center;
 overflow: hidden;
 padding: 0px 0;
 }
-
-input {
+input 
+{
 display: none;
 }
-
-.entry {
+.entry 
+{
 position: relative;
 width: 80%;
 transition: 0.5s;
@@ -602,8 +598,8 @@ justify-content: flex-start;
 align-items: center;
 margin: 1px 0;
 }
-
-.circle {
+.circle 
+{
 border: 3px solid #cacaca;
 border-radius: 50%;
 cursor: pointer;
@@ -612,16 +608,17 @@ width: 32px;
 top: 10%;
 transition: box-shadow 0.5s, border-color 0.5s;
 }
-
-.entry-label {
+.entry-label 
+{
 cursor: pointer;
 user-select: none;
 -moz-user-select: none;
-font-weight: 500;
+font-weight: 400;
+letter-spacing: 1px;
 padding-left: 15px;
 }
-
-.highlight {
+.highlight 
+{
 background: white;
 border-radius: 50%;
 height: 18px;
@@ -633,20 +630,20 @@ position: absolute;
 transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 transform: translateY(-55px);
 }
-
-input:nth-child(1):checked ~ .highlight {
+input:nth-child(1):checked ~ .highlight 
+{
 transform: translateY(-11px);
 }
-
-input:nth-child(3):checked ~ .highlight {
+input:nth-child(3):checked ~ .highlight 
+{
 transform: translateY(23px);
 }
-
-input:checked + .entry .circle {
+input:checked + .entry .circle 
+{
 border-color: grey;
 box-shadow: 0 0 10px blue;
 }
-
-input:checked + .entry {
+input:checked + .entry 
+{
 color: grey;
 }
