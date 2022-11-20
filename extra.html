@@ -77,20 +77,8 @@
                         </div>
                     </div>
                 </div>
-                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-                <script>
-                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyj08GgCYCx6TNGePWOj6L-OTVGel77ugTtz00aD61KdKzchB60crDxzIzBlk-21Rx/exec'
-                    const form = document.forms['google-sheet']
-
-                    form.addEventListener('submit', e => {
-                        e.preventDefault()
-                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                        .then(response => $("#form_alerts").html("<div class='alert alert-success'>Save successfully.</div>"))
-                        .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Unsave.</div>"))
-                    })
-                </script>
                 <div class="box">
+                    <form name="google-sheet">
                     <div id="Q1" class="line"></div>
                     <h2>1. The largest circular storm in our solar system is on the
                         surface of which  of the following planets?</h2>
@@ -152,6 +140,7 @@
                             </div>
                         </label>
                     </div>
+                    </form>
                     <details>
                         <summary class="view-answer">View Answer</summary>
                         <p>Jupiter</p>
@@ -953,11 +942,24 @@
                 </div>
             </section>
             <section>
-                <div class="sub">
-                    <button class="btn btn-dark" type="submit">Submit</button>
-                    <button class="btn btn-dark" type="reset">Reset!</button>
-                </div>
+                <center class="np">
+                    <button class="np p-4" type="submit">Submit</button>
+                    <button class="np p-4" type="reset">Reset!</button>
+                </center>
             </section>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyj08GgCYCx6TNGePWOj6L-OTVGel77ugTtz00aD61KdKzchB60crDxzIzBlk-21Rx/exec'
+                    const form = document.forms['google-sheet']
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => $("#form_alerts").html("<div class='alert alert-success'>Save successfully.</div>"))
+                        .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Unsave.</div>"))
+                    })
+                </script>
             <footer>
                 <div id="about" class="line"></div>
                 <div class="footer-content">
