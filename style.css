@@ -647,3 +647,41 @@ input:checked + .entry
 {
 color: grey;
 }
+.last_page
+{
+    width: 70%;
+    height: 400px;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+.last_page .last_content
+{
+    width: 100%;
+    background-color:#1b1d2890;
+    height: 100%;
+
+}
+.last_content > h1, p
+{
+    color: white;
+}
+.last_content > h1
+{
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.last_content > p
+{
+    position: relative;
+    top: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 5px;
+}
